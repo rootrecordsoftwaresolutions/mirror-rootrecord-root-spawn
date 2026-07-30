@@ -117,7 +117,7 @@ public record SpawnConfig(
                 cfg.getInt("basement.y_top", BasementZone.DEFAULT_TOP),
                 cfg.getInt("basement.y_bottom", BasementZone.DEFAULT_BOTTOM),
                 Math.max(40, cfg.getInt("protection.mob_cleanup_ticks", 80)),
-                cfg.getString("messages.prefix", "&b[Spawn Ring] &r"),
+                cfg.getString("messages.prefix", ""),
                 cfg.getString("messages.enter_chat",
                         "&a&lSpawn Safe Zone&r &7— &fNo PVP, no mobs, no griefing inside the ring."),
                 cfg.getString("messages.leave_chat",
